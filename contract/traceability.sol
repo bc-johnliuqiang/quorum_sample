@@ -1,7 +1,9 @@
 pragma solidity >=0.4.0 <0.7.0;
+
+//支持在方法中返回数组与结构体等类型
 pragma experimental ABIEncoderV2;
 
-contract verificer {
+contract traceability {
     // 资产动态属性
     struct MetadataMapping {
         string[] keys;
