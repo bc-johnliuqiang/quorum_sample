@@ -1,7 +1,7 @@
 pragma solidity >=0.4.0 <0.7.0;
 pragma experimental ABIEncoderV2;
 
-contract traceability {
+contract verificer {
     // 资产动态属性
     struct MetadataMapping {
         string[] keys;

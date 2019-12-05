@@ -1,7 +1,7 @@
 let Web3 = require("web3");
 let fs = require("fs");
 
-let provider = new Web3.providers.HttpProvider('http://47.75.163.225:30011', 50000, 'john', 'Qwer~1234');
+let provider = new Web3.providers.HttpProvider('http://xxx.xxx.xxx.xxx:xxxx', 50000, 'user', 'Abcd@1234');
 let web3 = new Web3(provider);
 console.log("web3 is connected:", web3.isConnected());
 let account = web3.eth.accounts[0];
